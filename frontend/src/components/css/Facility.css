@@ -1,0 +1,47 @@
+/* Facility.css */
+
+.facility-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .facility-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .facility-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .facility-item h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .facility-item p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .search-input {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  

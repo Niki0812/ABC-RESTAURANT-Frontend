@@ -1,0 +1,55 @@
+/* ViewMenu.css */
+
+.view-menu {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+  }
+  
+  td img {
+    max-width: 100px; /* Adjust size as needed */
+    height: auto;
+  }
+  
+  button {
+    background-color: #c43939; /* Red background for delete button */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  button:hover {
+    background-color: #e60000; /* Darker red on hover */
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button:active {
+    background-color: #cc0000; /* Even darker red when clicked */
+  }
+  

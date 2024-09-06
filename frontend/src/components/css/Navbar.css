@@ -1,0 +1,59 @@
+/* General NavBar Styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f8f8;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+}
+
+nav div a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+/* Login & Signup Specific Styles */
+nav div a[href='/login'],
+nav div a[href='/signup'] {
+  background-color: #007bff;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav div a[href='/login']:hover,
+nav div a[href='/signup']:hover {
+  background-color: #0056b3;
+}
+
+/* Logout Link Styles */
+nav div a[href='/login']:first-of-type {
+  background-color: transparent;
+  color: #333;
+  padding: 0;
+  border-radius: 0;
+}
+
+nav div a[href='/login']:first-of-type:hover {
+  color: #007bff;
+}
+
+/* Adjustments for Logout Button */
+nav div a[href='/login'] {
+  margin-right: 20px;
+}
+
+nav div:last-child {
+  font-weight: 400;
+  font-size: 20px;
+  color: #666;
+}

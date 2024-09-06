@@ -1,0 +1,90 @@
+body 
+{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.slider-container {
+    width: 80%;
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  #homecard {
+  flex: 0 0 300px;
+  margin: 0 10px;
+  box-shadow: 0 4px 8px rgba(84, 170, 192, 0.3); 
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.5s ease; /* Add transition for smooth effect */
+}
+
+.card:hover img {
+  transform: scale(1.1); /* Zoom effect on hover */
+}
+
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .card-description {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .card-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .prev,
+  .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #2a5287;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .prev {
+    left: 0;
+  }
+  
+  .next {
+    right: 0;
+  }

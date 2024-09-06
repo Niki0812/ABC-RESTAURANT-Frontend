@@ -1,0 +1,36 @@
+.gallery-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.gallery-form {
+  width: 40%;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.gallery-table {
+  width: 55%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.gallery-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.gallery-table th, .gallery-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.gallery-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
